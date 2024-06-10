@@ -9,7 +9,7 @@ public class Menu {
 
             System.out.println("******************WELCOME TO BUSCAMINAS***************");
             System.out.println("ENTER THE SIZE OF YOUT GAME");
-             Matriz.crearMatriz(Verify.verify());
+             Matriz.createMatriz(Verify.verify());
              Matriz.mostrarMatriz();
 
         }
