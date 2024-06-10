@@ -2,7 +2,7 @@ package Matriz.utils;
 
 import utils.Ask;
 
-public class veridicar {
+public class Verificar {
     public static int verificar() {
         boolean flag = true;
         int i = 0, j = 0;
