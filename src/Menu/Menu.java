@@ -1,21 +1,16 @@
 package Menu;
 
 import Matriz.Matriz;
-import Matriz.utils.Verificar;
+import Matriz.utils.Verify;
 
 public class Menu {
     public  static void menu() {
         while (true) {
 
-            System.out.println("******************MENU***************");
-            System.out.println("INGRESE TAMAÑO DE MATRIZ:");
-            
-             Matriz.crearMatriz(Verificar.verificar());
-
-             
-        
-
-
+            System.out.println("******************WELCOME TO BUSCAMINAS***************");
+            System.out.println("ENTER THE SIZE OF YOUT GAME");
+             Matriz.crearMatriz(Verify.verify());
+             Matriz.mostrarMatriz();
 
         }
 
