@@ -8,7 +8,7 @@ public class Verify {
         int i = 0;
         String difficult = "";
         while (flag) {
-            int option = Ask.forInt("*DIFICULTY*\n(1)EASY \n(2)MEDIUM\n(3)HARD\n");
+            int option = Ask.forInt("*DIFFICULTY*\n(1)EASY \n(2)MEDIUM\n(3)HARD\n");
             switch (option) {
                 case 1 -> {
                     difficult = "EASY";
@@ -25,7 +25,7 @@ public class Verify {
             }
 
             flag = option > 3 ? true : false;
-            String r = flag ? "DIFFICUL:" + difficult : "THERES IS NOT AN OPTION";
+            String r = flag ? "DIFFICULT:" + difficult : "THERES IS NOT AN OPTION";
             System.out.println(r);
         }
         return i;
